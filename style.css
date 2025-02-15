@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'yandexsans'; /* Name your font family */
+    src: url('fonts/YandexSansText-Regular.ttf'); /* Locate the .ttf file within your directory*/
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}  
+header{
+    position: relative;
+    z-index: 5;
+}
+body{
+    background-color: black;
+}
+.header-logo {
+    width: 50px;
+    height: 50px;
+}
+.header-cont{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.header-logo-text{
+    font-size: xx-large;
+    font-family: 'yandexsans';
+}
+.header-cont-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+h1{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'yandexsans';
+    margin: 0;
+    margin-bottom: 50px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'yandexsans';
+}
+.firstBlock{
+    padding-top: 165px;
+    padding-bottom: 25px;
+    margin-top: -100px;
+    background-image: url(images/gradient.png);
+    background-size: 100%;
+}
+.secondBlock{
+    margin-top: 50px;
+    display: grid;
+}
+
+.cards-cont{
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+    justify-content: space-between;
+}
+.card{
+    display: grid;
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+    align-items: center;
+}
+.duration-text{
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-family: 'yandexsans';
+}
+.price-text{
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-family: 'yandexsans';
+    font-size: 100px;
+}
+.menu-button{
+    display: flex;
+    height: 100%;
+    font-family: 'yandexsans';
+    margin-right: 25px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 15px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.nickname{
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-family: 'yandexsans';
+    font-size: x-large;
+    font-weight: 600;
+}
+.review-text{
+    text-align: center;
+    display: block;
+    font-family: 'yandexsans';
+    height: 200px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.thirdBlock{
+    margin-top: 50px;
+    padding-bottom: 25px;
+    padding-top: 50px;
+    background-image: url('images/gradientinv.png');
+    background-size: 100%;
+    background-repeat: round;
+}
+.thirdBlockText{
+    color: black;
+}
+.footerContact{
+    color: white;
+    font-family: 'yandexsans';
+}
+.contacts{
+    display: grid;
+    align-items: center;
+    height: 100%;
+    margin-right: 25px;
+}
+footer{
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+}
+.footer-cont-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.footer-logo{
+    width: 50px;
+    height: 50px;
+}
+.footer-logo-text{
+    color: white;
+    font-size: xx-large;
+    font-family: 'yandexsans';
+}
