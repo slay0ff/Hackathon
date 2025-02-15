@@ -1,1 +1,1 @@
-ЧЕкаво
+Repo for Hackathon
