@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: beige;
+    height: 100%;
+}
+header{
+    background-color: burlywood;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: .25em;
+    margin: .25em .25em 0em .25em;
+    border-radius: .25em;
+    flex-wrap: wrap;
+}
+.buttons{
+    display: flex;
+    width: auto;
+}
+.invisible{
+    scale: 0;
+    visibility: collapse;
+    display: none;
+}
+.visible{
+    visibility: visible;
+}
+header a{
+    font-family: 'Montserrat';
+    background-color: white;
+    padding: .25em;
+    border-radius: .25em;
+    height: 1em;
+}
+header svg{
+    background-color: white;
+    padding: .25em;
+    margin: .25em;
+    border-radius: .25em;
+}
+.mainCont{
+    display: flex;
+    background-color: burlywood;
+    padding: .5em;
+    margin: .25em .25em 0em .25em;
+    border-radius: .25em;
+    flex-direction: column;
+}
+.mapCont a{
+    display: block;
+    height: 20em;
+}
+.mapCont{
+    background-color: white;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: .25em;
+    margin: .25em;
+    border-radius: .25em;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+footer{
+    display: flex;
+    background-color: burlywood;
+    padding: .25em;
+    margin: .25em .25em .25em .25em;
+    border-radius: .25em; 
+    flex: 0 0 auto;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.content{
+    flex: 1 0 auto;
+}
